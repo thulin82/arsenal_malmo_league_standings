@@ -1,6 +1,10 @@
 // JS Dependencies: Bootstrap & JQuery
-import 'chart.js';
+import $ from 'jquery';
+window.jQuery = $;
+window.$ = $;
+
 import 'jquery';
+import 'chart.js';
 
 // Using the next two lines is like including partial view _ValidationScriptsPartial.cshtml
 //import 'jquery-validation'

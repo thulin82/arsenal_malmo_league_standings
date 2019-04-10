@@ -1,3 +1,5 @@
+var webpack = require('webpack');
+
 module.exports = {
     entry: {
         site: './site.js'
@@ -7,5 +9,11 @@ module.exports = {
         path: __dirname + '/js'
     },
     devtool: 'source-map',
-    mode: 'development'
+    mode: 'development',
+    plugins: [
+        new webpack.ProvidePlugin({
+            $: "jquery",
+            jQuery: "jquery"
+        })
+    ]
 };
