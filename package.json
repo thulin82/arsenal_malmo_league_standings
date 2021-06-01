@@ -2,7 +2,7 @@
     "name": "arsenal_malmo_league_standings",
     "version": "1.0.0",
     "description": "Use chart.js to display historical league positions",
-    "main": "index.js",
+    "main": "server.js",
     "repository": {
         "type": "git",
         "url": "git@github.com:thulin82/arsenal_malmo_league_standings.git"
@@ -10,15 +10,19 @@
     "author": "thulin82",
     "license": "MIT",
     "dependencies": {
-	    "chart.js": "^2.8.0",
-        "eslint": "^5.15.1",
-        "jquery": "^3.3.1"
+        "chart.js": "^3.3.2",
+        "axios": "^0.21.0",
+        "cors": "^2.8.0",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.0",
+        "xml2js": "^0.4.23"
     },
     "devDependencies": {
-        "webpack": "^4.29.6",
-        "webpack-cli": "^3.2.3"
+        "eslint": "^7.27.0",
+        "nodemon": "^2.0.0"
     },
     "scripts": {
-        "build": "webpack"
+        "start": "node server.js",
+        "dev": "nodemon server.js"
     }
 }
