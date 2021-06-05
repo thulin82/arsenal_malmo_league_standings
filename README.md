@@ -16,10 +16,10 @@ $ git clone git@github.com:thulin82/arsenal_malmo_league_standings.git
 $ npm install
 ```
 
-### Bundle javascript
+### Run Backend
 
 ```
-$ npm run build
+$ npm start
 ```
 
 © Markus Thulin 2019-
