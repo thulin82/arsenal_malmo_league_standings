@@ -22,4 +22,12 @@ $ npm install
 $ npm start
 ```
 
+### Environment variables
+In config/config.env add
+```
+PORT = 
+URL_M =
+URL_A = 
+```
+
 © Markus Thulin 2019-
