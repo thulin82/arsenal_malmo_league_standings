@@ -6,6 +6,10 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
+router.get('/', function (req, response) {
+    response.redirect('index.html');
+});
+
 router.get('/malmo', function (req, response) {
     let data = '';
     axios.get(process.env.URL_M).then((resp) => {
