@@ -16,6 +16,6 @@ app.use('/', require('./routes/index'));
 
 const PORT = process.env.PORT || 4567;
 
-app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+app.listen(PORT);
 
 module.exports = app;
