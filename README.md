@@ -27,7 +27,6 @@ $ npm start
 ### Environment variables
 In config/config.env add
 ```
-PORT = 
 URL_M =
 URL_A = 
 ```

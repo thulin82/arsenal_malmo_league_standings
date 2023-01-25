@@ -69,8 +69,8 @@ renderBtn.addEventListener('click', () => {
         dataSet = json.map(function (e) {
             return e.p;
         });
-        labels.pop();  //to be removed when new season starts
-        dataSet.pop(); //to be removed when new season starts
+        //labels.pop();  //to be removed when new season starts
+        //dataSet.pop(); //to be removed when new season starts
 
         var barChartData = {
             datasets: []
