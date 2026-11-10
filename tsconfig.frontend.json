@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "./public",
+    "outDir": "./public",
+    "declaration": false,
+    "declarationMap": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"]
+  },
+  "include": ["public/**/*.ts"],
+  "exclude": ["node_modules", "dist", "src", "tests"]
+}
