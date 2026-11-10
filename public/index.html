@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Chart.js</title>
-</head>
-<body>
-    <button id="renderBtn">Render - Arsenal</button>
-    <button id="renderBtn2">Render - Malmö</button>
-    <button id="toggleBtn">All On</button>
-    <button id="toggleBtn2">All Off</button>
-    <div class="container">
-        <canvas id="myChart"></canvas>
-    </div>
-    
-</body>
-<script src="js/chartData.js"></script>
-<script src="js/main.js"></script>
-<script src="chart.js"></script>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Chart.js</title>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+        <button id="renderBtn">Render - Arsenal</button>
+        <button id="renderBtn2">Render - Malmö</button>
+        <button id="toggleBtn">All On</button>
+        <button id="toggleBtn2">All Off</button>
+        <div class="container">
+            <canvas id="myChart"></canvas>
+        </div>
+    </body>
+    <script type="module" src="main.js"></script>
 </html>
