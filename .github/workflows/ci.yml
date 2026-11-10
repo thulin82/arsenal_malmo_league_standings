@@ -44,7 +44,6 @@ jobs:
 
       - name: Test Report
         uses: dorny/test-reporter@v3
-        if: success() || failure()
         with:
           name: unit tests (${{ matrix.node-version }})
           path: reports/junit.xml
